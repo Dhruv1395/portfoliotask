@@ -1,0 +1,259 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+header{
+    height: auto;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+nav{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav button{
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(35, 225, 54);
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    height: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background-color: rgb(45, 45, 186);
+    
+}
+.content h1{
+    padding-top: 10%;
+    color:white;
+    padding-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+.content span{
+    height: 5px;
+    width: 120px;
+    background-color:  rgb(65, 227, 242);
+    
+}
+.content p{
+    padding-top: 50px;
+    color: white;
+    width: 60%;
+    text-align: center;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    font-size: 20px;
+}
+.button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15%;
+}
+.button button{
+    padding: 10px 25px;
+    margin: 20px 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+ i{
+    padding: 0 0 0 10px;
+}
+section{
+    padding-bottom: 100px;
+}
+.homepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homepage h1{
+   padding: 50px 0;
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.homepage img{
+    width: 28%;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+}
+.homepage p{
+    text-align: center;
+    padding: 20px 5px;
+    font-size: 25px;
+    font-family:cursive;
+}
+.homepage h5{
+    text-align: center;
+}
+.homepage button{
+    padding: 15px 25px;
+    margin: 20px 5px;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color:  rgb(13, 180, 222);
+    color: white;
+    font-weight: bold;
+}
+#content{
+    padding-bottom: 100px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.details .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    height: auto;
+    width: 50%;
+
+}
+.info span{
+    height: 5px;
+    width: 150px;
+    background-color:  rgb(13, 180, 222);
+}
+.img img{
+    width:35%;
+    margin-left: 50%;
+
+}
+.info h1{
+    padding:5% 0 5% 0;
+    font-size: 30px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.head h1{
+    font-size: 30px;
+    text-align: center;
+}
+.head span{
+    height: 5px;
+    width: 120px;
+    background-color:  rgb(13, 180, 222);
+    margin: 5% auto;
+}
+.information{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin:0 5%;
+}
+.col .row{
+    display: flex;
+    align-items: center;
+}
+.col .row .info{
+    width: 100%;
+}
+.col .row .info h1{
+    color:  rgb(13, 180, 222);
+    font-family:sans-serif;
+    font-size: 25px;
+
+}
+.col .row img{
+    width: 15%;
+}
+footer{
+    height: auto;
+    width: 100%;
+    background-color: rgb(45, 45, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+
+
+}
+footer h1{
+    font-size: 35px;
+    font-family:sans-serif;
+    padding: 10% 0 1% 0;
+}
+footer .btn{
+    padding: 5% 0;
+    
+}
+footer button{
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+}
+ .frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0 5% 0;
+
+
+    
+
+ }
+ iframe{
+   position: absolute;
+   
+   z-index: -0.2;
+    
+ }
+ 
